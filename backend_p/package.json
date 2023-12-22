@@ -1,0 +1,31 @@
+{
+  "name": "backend-p",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon",
+    "build": "build script"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "cron": "^2.3.1",
+    "debug": "~2.6.9",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "http-errors": "~1.6.3",
+    "jade": "^1.9.2",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "~1.9.1",
+    "mysql2": "^3.3.2",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^3.0.2"
+  },
+  "cyclic": {
+    "startCommand": "npm start"
+  }
+}
