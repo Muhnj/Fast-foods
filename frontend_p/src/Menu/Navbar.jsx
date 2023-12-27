@@ -40,7 +40,7 @@ export const Navbar = () => {
   return (
     <div>
       <nav className="fixed-top navbar px-4 navbar-expand-lg navbar-light bg-light">
-        <h5 id="logo">OdysseyBreakSystem</h5>
+        <h5 id="logo">Fast foods BreakFast System</h5>
 
         <button className="navbar-toggler" type="button" onClick={toggleNav}>
           <CiMenuKebab />
